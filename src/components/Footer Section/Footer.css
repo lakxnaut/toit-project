@@ -1,0 +1,29 @@
+.Footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../assets/footerbg.png);
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.top {
+  left: 49.7%;
+  top: 13%;
+  position: absolute;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.footer-menu {
+  margin-left: 180px;
+  margin-top: 97px;
+}
+
+.footer-menu p {
+  color: white;
+}
+
+.footer-menu p:hover {
+  color: brown;
+}

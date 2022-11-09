@@ -1,0 +1,35 @@
+.SingleImage {
+  /* background-image: url(../../assets/bars.png); */
+  height: 600px;
+  width: 33vw;
+  background-repeat: no-repeat;
+}
+.TitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 70px;
+  align-items: flex-end;
+  height: 500px;
+}
+.TitleContainer h1 {
+  font-size: 60px;
+}
+.whiteText {
+  color: white;
+}
+.blackText {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.lorem {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 70px;
+  align-items: flex-end;
+  height: 20px;
+  color: white;
+}

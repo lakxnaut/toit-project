@@ -1,0 +1,67 @@
+.header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 6px;
+}
+
+.header-menu img {
+  height: 26px;
+}
+.header-menu h3 {
+  font-size: 12px;
+}
+
+.header-logo {
+  display: flex;
+  width: 300px;
+  justify-content: end;
+}
+
+.header-logo img {
+  width: 80px;
+  height: 120px;
+}
+.header-menuButtons {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header-menuButtons p {
+  font-weight: 500;
+  font-size: 12px;
+}
+.header-menuButtons p:hover {
+  cursor: pointer;
+  color: rgb(255, 183, 183);
+}
+
+.header-find-beer {
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid white;
+  padding: 6px;
+}
+
+.header-find-beer:hover {
+  cursor: pointer;
+  border: none;
+  background-color: red;
+}

@@ -1,0 +1,5 @@
+.threeImageSection {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
